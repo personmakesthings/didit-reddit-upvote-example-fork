@@ -15,6 +15,7 @@ The project is a work in progress and is not yet complete.
    - Visitors who attempt to vote when not logged in are redirected to a message requesting that they log in.
    - Users who are already logged in cannot access this page and are redirected to the website homepage.
 - [x] Increased posts per page count from 4 to 8
+- [x] Placeholder message shown when no posts are available
 - [x] *any more to be added*
 
 
