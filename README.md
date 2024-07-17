@@ -9,14 +9,15 @@ The project is built using Next.js with the /app router and [Tailwind CSS](https
 
 The project is a work in progress and is not yet complete.
 
+
 ## NEW features & changes implemented in this version
 
-- [x] Vote redirect when not logged in 
+- [x] Message if a non-registered user attempts to vote
    - Visitors who attempt to vote when not logged in are redirected to a message requesting that they log in.
    - Users who are already logged in cannot access this page and are redirected to the website homepage.
-- [x] Increased posts per page count from 4 to 8
+- [x] Added back in `UNIQUE` constraint on `votes` table (`UNIQUE(user_id, post_id, vote_type)`)
 - [x] Placeholder message shown when no posts are available
-- [x] *any more to be added*
+- [x] Increased posts per page count from 4 to 8
 
 
 ## Features
