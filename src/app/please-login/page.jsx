@@ -10,7 +10,7 @@ export default async function PleaseLogin() {
     return (
       <div className="max-w-screen-lg mx-auto p-4 mt-10">
         <p>You must login to vote on posts <LoginButton /></p>
-        <BackBtn />
+        {/* <BackBtn /> */}
       </div>
     )
   } else {
