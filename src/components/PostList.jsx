@@ -16,6 +16,14 @@ export async function PostList({ currentPage = 1 }) {
      LIMIT ${POSTS_PER_PAGE}
      OFFSET ${POSTS_PER_PAGE * (currentPage - 1)}`);
 
+  if (posts.length === 0) {
+    return (
+      <div className="max-w-screen-lg mx-auto p-4 mb-4">
+        <p>No posts yet! <Link href="add-post">Be the first to add one!</Link></p>
+      </div>
+    )
+  }
+  
   return (
     <>
       <ul className="max-w-screen-lg mx-auto p-4 mb-4">

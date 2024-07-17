@@ -1,10 +1,22 @@
 ## Upvote
 
+Demo deployed to Render:
+- *to be added*
+
 Upvote is a Reddit-esque web application that allows users to create posts, upvote and downvote posts, and comment on posts in a multi-threaded, nested list.
 
 The project is built using Next.js with the /app router and [Tailwind CSS](https://tailwindcss.com/), and uses [Auth.js (formerly Next Auth)](https://authjs.dev/) for user authentication. The data is stored in a Postgres database, which is created and accessed with raw SQL queries using the `pg` package.
 
 The project is a work in progress and is not yet complete.
+
+## NEW features & changes implemented in this version
+
+- [x] Vote redirect when not logged in 
+   - Visitors who attempt to vote when not logged in are redirected to a message requesting that they log in.
+   - Users who are already logged in cannot access this page and are redirected to the website homepage.
+- [x] Increased posts per page count from 4 to 8
+- [x] *to be added*
+
 
 ## Features
 
