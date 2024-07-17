@@ -1,7 +1,7 @@
 ## Upvote
 
 Demo deployed to Render:
-- *to be added*
+- https://didit-reddit-upvote-example-fork.onrender.com/
 
 Upvote is a Reddit-esque web application that allows users to create posts, upvote and downvote posts, and comment on posts in a multi-threaded, nested list.
 
@@ -15,7 +15,7 @@ The project is a work in progress and is not yet complete.
    - Visitors who attempt to vote when not logged in are redirected to a message requesting that they log in.
    - Users who are already logged in cannot access this page and are redirected to the website homepage.
 - [x] Increased posts per page count from 4 to 8
-- [x] *to be added*
+- [x] *any more to be added*
 
 
 ## Features
